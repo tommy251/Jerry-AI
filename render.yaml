@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: jerry-ai
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+    envVars:
+      - key: GROQ_API_KEY
+        sync: false   # you enter this in Render dashboard
+    plan: free
