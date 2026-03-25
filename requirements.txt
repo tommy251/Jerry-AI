@@ -1,6 +1,6 @@
-# Jerry AI - All Free Dependencies
-groq>=0.9.0           # Free AI brain (Llama 3, Mixtral) — console.groq.com
-httpx>=0.27.0         # Async HTTP requests
-beautifulsoup4>=4.12.0 # Web scraping
-yfinance>=0.2.40      # Yahoo Finance stock data (free)
-python-dotenv>=1.0.0  # Load .env file
+flask>=3.0.0
+groq>=0.9.0
+httpx>=0.27.0
+beautifulsoup4>=4.12.0
+yfinance>=0.2.40
+python-dotenv>=1.0.0
